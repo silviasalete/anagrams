@@ -9,9 +9,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Main {
-    public static void main(String[] args) {
-        generateAnagrams("amor");
-    }
+    public static void main(String[] args) { }
     public static List<String> generateAnagrams(String word) {
 
         List<String> result = new ArrayList<>();
